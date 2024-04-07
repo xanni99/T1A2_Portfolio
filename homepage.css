@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: white;
+    height: 20%;
+}
+
+a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.my_links {
+    
+}
