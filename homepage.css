@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,10 +7,19 @@
     color: white;
 }
 
-.topnav {
+nav {
     background-color: white;
-    height: 7vh;
+    height: 8vh;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2em;
+}
+
+#logo {
+    height:100%
+
 }
 
 nav > a {
@@ -27,7 +37,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
 }
 
 section {
@@ -35,17 +45,26 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items:flex-start;
-    height: 20vh;
+    height: 10vh;
+}
+
+h1 {
+    padding: 2em;
 }
 
 footer {
-    height: 5vh;
-    text-align: center;
+    height: 10vh;
+    width: 100%;
     padding-top: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding-left: 1em;
+    padding: 1em;
 }
 
-.footer_links {
-    flex: 0.1;
+footer p {
+    flex: 10%;
 }
+
