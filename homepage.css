@@ -6,12 +6,13 @@
     color: white;
 }
 
-nav {
+.topnav {
     background-color: white;
-    height: 20%;
+    height: 7vh;
+    width: 100%;
 }
 
-a {
+nav > a {
     background-color: white;
     text-decoration: none;
     color: black;
@@ -19,4 +20,32 @@ a {
 
 .my_links {
     
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+    height: 20vh;
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_links {
+    flex: 0.1;
 }
