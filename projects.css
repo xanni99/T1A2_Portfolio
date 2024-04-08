@@ -11,7 +11,8 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: black; */
+    background-color: black;
+    color: white;
 }
 
 article > * {
@@ -20,7 +21,6 @@ article > * {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* color: white; */
 }
 
 nav {
@@ -61,6 +61,13 @@ header {
 section {
     align-content: center;
     row-gap: 1em;
-    background-color: aquamarine;
-    margin: 4em;
+    /* background-color: aquamarine; */
+    margin: 1em;
+    height: 30vh;
+}
+
+section h2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
 }
