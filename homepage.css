@@ -5,6 +5,9 @@
     padding: 0;
     background-color: black;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 nav {
@@ -12,19 +15,19 @@ nav {
     height: 8vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     align-items: center;
     padding-right: 1em;
-}
-
-#logo {
-    height:100%
 }
 
 nav > a {
     background-color: white;
     text-decoration: none;
     color: black;
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 nav > a:hover {
@@ -34,8 +37,9 @@ nav > a:hover {
     border-radius: 100%;
 }
 
-.my_links {
-    
+#logo {
+    position: absolute;
+    left: 0;
 }
 
 header {
@@ -72,6 +76,6 @@ footer {
 }
 
 #copyright {
-    flex: 25%;
+    flex: 30%;
 }
 
