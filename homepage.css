@@ -26,8 +26,6 @@ nav > a {
     text-decoration: none;
     color: black;
     padding: 0.5em;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 nav > a:hover {
@@ -48,6 +46,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 70vh;
+    text-align: center;
 }
 
 section {
@@ -59,23 +58,29 @@ section {
 }
 
 h1 {
-    padding: 2em;
+    padding: 0.5em;
+    font-weight: 300;
+    font-size: 5em;
 }
 
 footer {
     height: 10vh;
-    justify-content: flex-start;
-    align-content: center;
+    justify-content: space-between;
     padding: 0.5em;
     display: flex;
     flex-wrap: wrap;
 }
 
 #GIT {
-    flex: 50% 
+    flex: 70%; 
+    text-align: center;
+    font-weight: 400;
 }
 
 #copyright {
-    flex: 30%;
+    flex: 15%;
 }
 
+.footer_links {
+    flex: 5%;
+}
