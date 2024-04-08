@@ -63,9 +63,9 @@ header h1 {
 }
 
 header a {
-    width: 100%;
     text-decoration: none;
     color: white;
+    padding-right: 1em;
 }
 
 section {
