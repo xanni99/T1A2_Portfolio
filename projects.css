@@ -27,6 +27,7 @@ nav {
     padding-right: 0.5em;
     height: 8vh;
     justify-content: flex-end;
+    align-items: center;
     background-color: white;
 }
 
