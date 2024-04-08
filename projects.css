@@ -10,6 +10,7 @@
 article {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* background-color: black; */
 }
 
@@ -20,4 +21,46 @@ article > * {
     flex-wrap: wrap;
     justify-content: center;
     /* color: white; */
+}
+
+nav {
+    padding-right: 0.5em;
+    height: 8vh;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+}
+
+nav > a:hover {
+    background-color: lightseagreen;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 100%;
+}
+
+header {
+    height: 10vh;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+section {
+    align-content: center;
+    row-gap: 1em;
+    background-color: aquamarine;
+    margin: 4em;
 }
