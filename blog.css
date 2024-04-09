@@ -83,6 +83,7 @@ section > h2, p {
 section > img {
     border-radius: 100%;
     position: relative;
+    padding: 10px;
 }
 
 footer {

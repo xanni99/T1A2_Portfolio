@@ -13,6 +13,7 @@ article {
     justify-content: center;
     /* background-color: black;
     color: white; */
+    row-gap: 2em;
 }
 
 article > * {
@@ -21,6 +22,7 @@ article > * {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: aquamarine;
 }
 
 nav {
@@ -50,19 +52,61 @@ nav > a:hover {
 }
 
 header {
-    height: 10vh;
+    height: 100vh;
     padding-top: 1em;
-    padding-bottom: 4em;
     text-align: center;
     width: 100%;
     font-weight: 300;
     font-size: 3em;
 }
 
+header > h1 {
+    width: 100%
+}
+
+header img {
+    border-radius: 100%;
+}
+
+header p {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 200;
+}
+
 section {
-    align-content: center;
-    row-gap: 1em;
-    /* background-color: aquamarine; */
-    margin: 1em;
-    height: 30vh;
+    text-align: center;
+    padding-top: 1rem;
+    height: 40vh;
+}
+
+section img {
+    border: 5px  groove black;
+}
+
+.hobby {
+    width: 100%;
+}
+
+
+footer {
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#GIT {
+    flex: 70%; 
+    text-align: center;
+    font-weight: 400;
+}
+
+#copyright {
+    flex: 15%;
+}
+
+.footer_links {
+    flex: 5%;
 }
