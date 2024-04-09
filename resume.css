@@ -21,6 +21,7 @@ article > * {
     align-items: center;
     color: white;
     box-sizing: border-box;
+    padding: 1em;
 }
 
 nav {
@@ -68,17 +69,20 @@ header a {
 }
 
 section {
-    height: 25vh;
-    padding-bottom: 2em;
+    height: 42vh;
     border-bottom: 2px solid white;
     align-content: flex-end;
     row-gap: 2em;
-    text-align: center;
+    text-align: left;
 }
 section h1 {
     width: 100%;
     font-weight: 600;
     font-size: 3em;
+}
+
+section h2 {
+    width: 100%;
 }
 
 section p {
