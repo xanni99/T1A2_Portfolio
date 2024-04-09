@@ -5,14 +5,15 @@
     font-weight: 100;
     font-style: normal;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
 }
 
 article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: black;
-    color: white; */
+    
 }
 
 article > * {
@@ -21,6 +22,8 @@ article > * {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: black;
+    color: white;
 }
 
 nav {
@@ -29,12 +32,14 @@ nav {
     justify-content: flex-end;
     align-items: center;
     background-color: white;
+    color: black;
 }
 
 nav a {
     color: black;
     text-decoration: none;
     padding: 0.5em;
+    background-color: white;
 }
 
 #logo {
@@ -62,19 +67,25 @@ header {
 
 .blog_posts > * {
     height: 50vh;
-    background-color: aquamarine;
-    padding: 2em;
+    /* background-color: aquamarine; */
+    padding: 1em;
+    width: 100%
+}
+
+section {
+    border: 1px dashed white;
     margin: 1em;
+}
+
+section > h2, p {
+    width: 100%;
+    text-align: center;
 }
 
 section > img {
     border-radius: 100%;
     position: relative;
-    top: -40%
-    display: block;
 }
-
-
 
 footer {
     height: 10vh;
