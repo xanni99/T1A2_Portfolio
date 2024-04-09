@@ -69,6 +69,7 @@ header a {
 
 section {
     height: 25vh;
+    padding-bottom: 2em;
     border-bottom: 2px solid white;
     align-content: flex-end;
     row-gap: 2em;

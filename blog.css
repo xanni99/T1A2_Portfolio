@@ -13,7 +13,6 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 article > * {
@@ -67,14 +66,13 @@ header {
 
 .blog_posts > * {
     height: 50vh;
-    /* background-color: aquamarine; */
     padding: 1em;
     width: 100%
 }
 
 section {
     border: 1px dashed white;
-    margin: 1em;
+    margin: 2em;
 }
 
 section > h2, p {
