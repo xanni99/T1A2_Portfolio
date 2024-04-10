@@ -11,8 +11,8 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
 }
 
 article > * {
@@ -64,13 +64,14 @@ section {
     row-gap: 1em;
     /* background-color: aquamarine; */
     margin: 1em;
-    height: 30vh;
+    height: 40vh;
 }
 
 section h2 {
     width: 100%;
     text-align: center;
     padding-top: 1em;
+    font-weight: 300;
 }
 
 footer {

@@ -1,7 +1,7 @@
 article {
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
+    
 }
 
 * {
@@ -19,7 +19,8 @@ article > * {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color: white;
+    /* color: white;
+    background-color: black; */
     box-sizing: border-box;
     padding: 1em;
 }
@@ -64,7 +65,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding-right: 1em;
 }
 

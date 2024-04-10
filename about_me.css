@@ -23,7 +23,6 @@ article > * {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: aquamarine; */
 }
 
 nav {
@@ -82,7 +81,7 @@ section {
 }
 
 section img {
-    border: 5px  groove black;
+    border: 10px  groove black;
 }
 
 .hobby {
@@ -97,11 +96,12 @@ section img {
     flex: 35%;
     height: 35vh;
     margin: 1rem;
-    border: 1px  solid black;
+    border: 2px  solid black;
 }
 
 .blog_list img {
-    border: none;
+    padding: 5px;
+    border: 1px solid black;
     border-radius: 50%;
     margin-bottom: 1em;
 }
