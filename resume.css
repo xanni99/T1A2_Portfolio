@@ -70,10 +70,10 @@ header a {
 }
 
 section {
-    height: 42vh;
+    height: 35vh;
     border-bottom: 2px solid white;
     align-content: flex-end;
-    row-gap: 2em;
+    row-gap: 1.5em;
     text-align: left;
 }
 section h1 {
@@ -82,12 +82,19 @@ section h1 {
     font-size: 3em;
 }
 
-section h2 {
+.description {
     width: 100%;
 }
 
-section p {
-width: 100%;
+.description h2 {
+    font-weight: 300;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 3em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 footer {
@@ -112,3 +119,7 @@ footer {
     flex: 5%;
 }
 
+@media only screen and (min-width:450px;) {
+    
+    }
+}
