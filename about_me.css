@@ -82,6 +82,7 @@ section {
 
 section img {
     border: 10px  groove black;
+    padding: 1em;
 }
 
 .hobby {
@@ -141,20 +142,20 @@ footer {
     flex: 5%;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 600px) and (max-width: 849px) {
     section {
         text-align: right;
-        padding: 1rem;
-        height: 40vh;
+        height: 30vh;
         margin: 2em;
     }
      section img {
-        flex: 20%;
+        flex: 15%;
+        margin: 2em;
     }
     
     .hobby {
-        flex: 60%;
-        padding: 1em;
+        flex: 50%;
+        padding: 2em
     }
 
     .hobby h2 {
@@ -172,4 +173,122 @@ footer {
         border: 2px  solid black;
         text-align: center;
     }
+
+}
+
+@media only screen and (min-width: 850px) and (max-width:1049px){
+    section {
+        text-align: right;
+        height: 30vh;
+        margin: 3em;
+    }
+     section img {
+        flex: 10%;
+        margin: 2em;
+    }
+    
+    .hobby {
+        flex: 60%;
+        padding: 3em
+    }
+
+    .hobby h2 {
+        padding-bottom: 1em;
+    }
+
+    #travel_header {
+        height: 5vh;
+    }
+
+    .blog_list {
+        flex: 15%;
+        height: 40vh;
+        border: 2px  solid black;
+        text-align: center;
+        margin: 2.5em;
+    }
+
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1299px) {
+    header p {
+        padding-left:3em;
+        padding-right: 3em;
+    }
+    
+    section {
+        text-align: right;
+        height: 30vh;
+        margin: 4em;
+    }
+     section img {
+        flex: 5%;
+        margin: 5em;
+    }
+    
+    .hobby {
+        flex: 60%;
+        padding: 8em
+    }
+
+    .hobby h2 {
+        padding-bottom: 1em;
+    }
+
+    #travel_header {
+        height: 5vh;
+        padding-top: 2em;
+    }
+
+    .blog_list {
+        flex: 20%;
+        height: 50vh;
+        border: 2px  solid black;
+        text-align: center;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) {
+    header p {
+        padding-left:5em;
+        padding-right: 5em;
+    }
+    
+    section {
+        text-align: right;
+        height: 30vh;
+        margin: 7em;
+        margin-top:2em;
+    }
+     section img {
+        flex: 5%;
+        margin: 7em;
+    }
+    
+    .hobby {
+        flex: 60%;
+        padding: 8em
+    }
+
+    .hobby h2 {
+        padding-bottom: 1em;
+    }
+
+    #travel_header {
+        height: 5vh;
+        padding-top: 2em;
+    }
+
+    .blog_list {
+        flex: 20%;
+        height: 60vh;
+        border: 2px  solid black;
+        text-align: center;
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+    }
+
 }
