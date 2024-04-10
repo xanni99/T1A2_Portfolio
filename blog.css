@@ -71,6 +71,7 @@ section {
 
 section > h2 {
     width: 100%;
+    font-weight: 300;
     text-align:center;
 }
 
