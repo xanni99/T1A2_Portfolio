@@ -52,8 +52,8 @@ nav > a:hover {
 }
 
 header {
-    height: 100vh;
-    padding-top: 1em;
+    height: 90vh;
+    padding-top: 0.5em;
     text-align: center;
     width: 100%;
     font-weight: 300;
@@ -94,7 +94,7 @@ section img {
 
 .blog_list {
     flex: 35%;
-    height: 35vh;
+    height: 40vh;
     margin: 1rem;
     border: 2px  solid black;
 }
