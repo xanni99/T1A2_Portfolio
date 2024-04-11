@@ -69,14 +69,19 @@ section {
     padding: 1em;
 }
 
-section > h2 {
+.blog_post > h2 {
     width: 100%;
     font-weight: 300;
     text-align:center;
 }
 
-section p {
+.blog_post p {
     text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.blog_post :nth-child(3) {
+    text-align: center;
 }
 
 section > img {
