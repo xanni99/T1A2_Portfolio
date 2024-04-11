@@ -62,16 +62,16 @@ header {
 section {
     align-content: center;
     row-gap: 1em;
-    /* background-color: aquamarine; */
     margin: 1em;
     height: 40vh;
+    border: 1px dashed black;
 }
 
 section h2 {
     width: 100%;
     text-align: center;
     padding-top: 1em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 footer {
@@ -94,4 +94,61 @@ footer {
 
 .footer_links {
     flex: 5%;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 819px) {
+    section {
+        height: 40vh;
+        flex: 30%;
+    }
+    #typography, #flexbox_challenge {
+        margin-right: 3em;
+        margin-top: 6em;
+    }
+    #rainbow_circles, #recipe_challenge {
+        margin-left: 3em;
+    }
+    #rainbow_circles {
+        margin-top: 3em;
+    }
+    #flexbox_challenge {
+        margin-top: 3em;
+    }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1200px) {
+    section {
+        height: 50vh;
+        flex: 40%;
+    }
+    #typography, #flexbox_challenge {
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+    #rainbow_circles, #recipe_challenge {
+        margin-left: 3em;
+    }
+    
+}
+
+@media only screen and (min-width: 1201px) {
+    section {
+        height: 60vh;
+        flex: 30%;
+    }
+    #typography, #flexbox_challenge {
+        margin-right: 6em;
+        margin-top: 12em;
+        margin-left: 2em;
+    }
+    #rainbow_circles, #recipe_challenge {
+        margin-left: 6em;
+        margin-right: 2em;
+    }
+    #rainbow_circles {
+        margin-top: 8em;
+    }
+    #flexbox_challenge {
+        margin-top: 4em;
+    }
 }
