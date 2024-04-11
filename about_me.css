@@ -11,8 +11,6 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: black;
-    color: white; */
     row-gap: 2em;
     column-gap: 2em;
 }
