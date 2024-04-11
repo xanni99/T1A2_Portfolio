@@ -9,7 +9,7 @@
     font-weight: 100;
     font-style: normal;
 }
-
+/* Navigation bar Styling */
 nav {
     background-color: white;
     height: 8vh;
@@ -29,9 +29,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: lightseagreen;
-    padding: 10px;
-    border-radius: 100%;
+    border-bottom: 2px solid lightseagreen;
 }
 
 #logo {
