@@ -112,6 +112,79 @@ footer {
     flex: 5%;
 }
 
+@media only screen and (min-width: 550px) and (max-width: 749px) {
+    section {
+        height: 60vh;
+    }
+    section > img {
+        padding: 5px;
+        margin-top: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 899px){
+    section {
+        height: 40vh;
+    }
+    section > img {
+        padding: 5px;
+        margin-top: 3.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        flex: 5%
+    }
+    .blog_post {
+        flex: 60%;
+        padding: 2em;
+    }
+    .blog_post > h2 {
+        padding-bottom: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1199px){
+    section {
+        height: 30vh;
+    }
+    section > img {
+        padding: 5px;
+        margin-top: 1.5em;
+        margin-left: 2em;
+        margin-right: 3em;
+        flex: 5%
+    }
+    .blog_post {
+        flex: 70%;
+    }
+    .blog_post > h2 {
+        padding-bottom: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    section {
+        height: 30vh;
+    }
+    section > img {
+        padding: 5px;
+        margin-top: 1em;
+        margin-left: 4em;
+        margin-right: 4em;
+        flex: 5%
+    }
+    .blog_post {
+        flex: 70%;
+    }
+    .blog_post > h2 {
+        padding-bottom: 0.5em;
+    }
+    .blog_post p {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+
+
 
 
 
