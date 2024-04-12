@@ -1,4 +1,4 @@
-
+/* WHOLE PAGE STYLING */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +9,7 @@
     font-weight: 100;
     font-style: normal;
 }
-/* Navigation bar Styling */
+/* NAV BAR */
 nav {
     background-color: white;
     height: 10vh;
@@ -21,6 +21,7 @@ nav {
     padding-right: 1em;
 }
 
+/* NAV BAR LINKS */
 nav > a {
     background-color: white;
     text-decoration: none;
@@ -28,15 +29,18 @@ nav > a {
     padding: 0.5em;
 }
 
+/* NAV BAR PSEUDO ELEMENT */
 nav > a:hover {
     border-bottom: 2px solid lightseagreen;
 }
 
+/* NAV BAR LOGO */
 #logo {
     position: absolute;
     left: 0;
 }
 
+/* PAGE HEADER */
 header {
     display: flex;
     flex-direction: column;
@@ -46,6 +50,7 @@ header {
     text-align: center;
 }
 
+/* LINKS TO PROFESSIONAL PAGES */
 section {
     display: flex;
     flex-wrap: wrap;
@@ -54,16 +59,19 @@ section {
     height: 10vh;
 }
 
+/* NAME/PAGE HEADER */
 h1 {
     padding: 0.5em;
     font-weight: 300;
     font-size: 5em;
 }
 
+/* LINKS TO PROFFESIONAL PAGES */
 .proffesional_links {
     margin: 0.3em;
 }
 
+/* FOOTER CONTAINER */
 footer {
     height: 10vh;
     margin-top: 2em;
@@ -73,6 +81,7 @@ footer {
     justify-content: center;
 }
 
+/* FOOTER LINKS */
 .footer_links {
     text-decoration: none;
     font-size: 1.2em;
@@ -84,6 +93,7 @@ footer {
     text-align: center;
 }
 
+/* FOOTER PSEUDO ELEMENTS */
 .footer_links:hover {
     color: #20b2aa;
   }
