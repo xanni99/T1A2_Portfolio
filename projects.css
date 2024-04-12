@@ -72,26 +72,33 @@ section h2 {
 }
 
 footer {
-    height: 10vh;
-    justify-content: space-between;
-    padding: 0.5em;
+    height: 15vh;
+    margin-top: 5em;
+    padding-bottom: 2em;
     display: flex;
     flex-wrap: wrap;
-}
-
-#GIT {
-    flex: 70%; 
-    text-align: center;
-    font-weight: 400;
-}
-
-#copyright {
-    flex: 15%;
+    justify-content: center;
 }
 
 .footer_links {
-    flex: 5%;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.5em;
+    color: black
 }
+
+.footer_copyright {
+    padding: 2em;
+    text-align: center;
+}
+
+.footer_links:hover {
+    color: #20b2aa;
+  }
+  
+  .footer_links:hover i {
+    color: lightseagreen;
+  }
 
 @media only screen and (min-width: 750px) and (max-width: 819px) {
     section {
