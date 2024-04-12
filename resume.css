@@ -25,7 +25,7 @@ article > * {
 
 nav {
     padding-right: 0.5em;
-    height: 8vh;
+    height: 10vh;
     justify-content: flex-end;
     background-color: white;
 }

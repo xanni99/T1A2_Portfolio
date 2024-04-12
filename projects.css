@@ -25,7 +25,7 @@ article > * {
 
 nav {
     padding-right: 0.5em;
-    height: 8vh;
+    height: 10vh;
     justify-content: flex-end;
     align-items: center;
     background-color: white;
@@ -60,7 +60,7 @@ section {
     align-content: center;
     row-gap: 1em;
     margin: 1em;
-    height: 40vh;
+    height: 45vh;
     border: 1px dashed black;
 }
 
