@@ -51,7 +51,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items:flex-start;
-    height: 15vh;
+    height: 10vh;
 }
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
 }
 
 .proffesional_links {
-    margin: 0.5em;
+    margin: 0.3em;
 }
 
 footer {
