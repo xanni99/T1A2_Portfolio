@@ -58,14 +58,18 @@ Screenshot of Homepage - Tablet View
 Screenshot of Homepage - Phone View
 ![Screenshot of Homepage - Tablet View](docs/homepagep.png)
 
+### Decision Making Process of the Homepage
 
-### Decision Making Process
+For the homepage, I wanted this do be as minimal as possible. My decision behind this was that I wanted my name to stand out and not have too much visual clutter surrounding it, so that it would stand out to the employer and hopefully make an impact. As a result, The hero unit included my name only and a very brief description of 'Aspiring Developer' getting the message across that that is my intention for the creation of this website. Additionally, I decided to include 2 icons that linked to my professional accounts (GitHub and LinkedIn), again to really drive home the message that this website is to show that I am an Aspiring Developer, willing to be contacted by potential employers. 
 
-### Components Used
+The styling for the homepage was used to enhance the simplistic and proffesional look I was after. A black background with white writing was chosen for the homepage only to make more of an impact than the other pages. A simple font was chosen that can be easily read and it was centered for maximum impact and readability. Additionally, only a very minimal number of colours are used throughout the entire website to continue the professional feel. I did keep the LinkedIn icon blue as it does provide some relief of the black and white homepage, in addition to drawing the viewers attention to click the icon which will take them to my professional account.
 
-### Page Styling
+The Nav Bar is consistent accross all pages as I wanted it to be a seamless experience for the viewer.It consists of a Logo of my initials, which again I created with simplicity and professionalism in mind, in addition to links to the other 4 HTML pages, which are evenly spaced out for clear reading. In terms of colours, I kept the theme of black and white consitent across all pages so that it remains seamless, clean and ultimately soes not take away from the content on the main page. The Nav Bar was styled with pseudo elements so that when the viewer hovers over each page label, it is underlined light green so that they know which they will be directed to if they click. Initally, I had the background of the label go completely green, however, I changed it so that it is just underlined green, as I thought it better maintained my goal of a professional website.
 
-### Responsive Design
+Additionally, the footer is made up of 4 elements including links to my email, GitHub and Linkedin and a copyright tag. Again, thegoalwas to make thisprofessionaland simple so that Icanultimatelybe contacted by a prospective employer with ease. By having these links in the footer (across all pages), a prospective employer willbe abletocontact me no matter what page they are on. As stated previously, these links arestyled so that they will open up the links to my professional accounts in a new tab, ratherthan the same window, so that the employer can refer back to the website if required. For these icons, I kept them black and white so that they did not take away from the more important content in the main section of the page. Finally, I decided to align the contents of the footer in the center (which is different from my original wireframe) as I found it was all too spaced out and did not look as professional and as easy to access as laid out in the wireframe.
+
+As all pages across this website, the homepage is designed and styled with responsiveness in mind. The main difference across the different viewports is the stacking of my name/hero element. Instead of keeping my name in one line, if the employer is viewing my portfolio on a tablet or a phone, it will stack my name to ensure it remains the highlight of the page. If it were toremainas one line, it would have to becometoo small to make an impact.
+
 
 ## About Me
 
@@ -84,7 +88,7 @@ Screenshot of About Me - Tablet View
 Screenshot of About Me - Phone View
 ![Screenshot of About Me - Phone View](docs/aboutmep.png)
 
-### Decision Making Process
+### Decision Making Process of About Me
 
 ### Components Used
 
@@ -109,7 +113,7 @@ Screenshot of Resume - Tablet View
 Screenshot of Resume - Phone View
 ![Screenshot of Resume - Phone View](docs/resumep.png)
 
-### Decision Making Process
+### Decision Making Process of Resume
 
 ### Components Used
 
@@ -134,7 +138,7 @@ Screenshot of Blog - Tablet View
 Screenshot of Blog - Phone View
 ![Screenshot of Blog - Phone View](docs/blogp.png)
 
-### Decision Making Process
+### Decision Making Process of Blog
 
 ### Components Used
 
@@ -159,7 +163,7 @@ Screenshot of Projects - Tablet View
 Screenshot of Projects - Phone View
 ![Screenshot of Projects - Phone View](docs/projectsp.png)
 
-### Decision Making Process
+### Decision Making Process of Projects
 
 ### Components Used
 
