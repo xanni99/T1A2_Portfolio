@@ -2,7 +2,7 @@
 
 ## GitHub Repository
 
-ADD LINK TO GITHUB REPO HERE!!
+[Link to my GitHub Repo](https://github.com/xanni99/T1A2_Portfolio)
 
 ## Purpose
 
