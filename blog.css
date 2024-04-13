@@ -1,3 +1,4 @@
+/* WHOLE PAGE STYLING */
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +6,16 @@
     font-weight: 100;
     font-style: normal;
     box-sizing: border-box;
-    /* background-color: black;
-    color: white; */
 }
 
+/* WHOLE PAGE STYLING */
 article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* WHOLE PAGE STYLING */
 article > * {
     width: 100%;
     height: 50vh;
@@ -23,6 +24,7 @@ article > * {
     justify-content: center;
 }
 
+/* NAV BAR */
 nav {
     padding-right: 0.5em;
     height: 10vh;
@@ -32,23 +34,24 @@ nav {
     color: black;
 }
 
+/* NAV BAR LINKS */
 nav a {
     color: black;
     text-decoration: none;
     padding: 0.5em;
     background-color: white;
 }
-
+/* PAGE LOGO */
 #logo {
     position: absolute;
     left: 0;
     border-radius: 100%;
 }
-
+/* NAV BAR PSEUDO-ELEMENTS */
 nav > a:hover {
     border-bottom: 2px solid lightseagreen;
 }
-
+/* PAGE HEADER */
 header {
     height: 10vh;
     padding-top: 1em;
@@ -58,29 +61,29 @@ header {
     font-weight: 300;
     font-size: 3em;
 }
-
+/* BLOG POSTS */
 section {
     border: 1px dashed black;
     margin: 2em;
     height: 80vh;
     padding: 1em;
 }
-
+/* BLOG POST HEADERS */
 .blog_post > h2 {
     width: 100%;
     font-weight: 300;
     text-align:center;
 }
-
+/* BLOG POST PARAGRAPHS */
 .blog_post p {
     text-align: justify;
     padding-bottom: 1rem;
 }
-
+/* BLOG POST DATES */
 .blog_post :nth-child(3) {
     text-align: center;
 }
-
+/* BLOG POST IMAGES */
 section > img {
     border-radius: 100%;
     border: 1px solid black;
@@ -88,7 +91,7 @@ section > img {
     padding: 5px;
     margin-top: 2em;
 }
-
+/* FOOTER */
 footer {
     height: 10vh;
     margin-top: 5em;
@@ -97,19 +100,19 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* FOOTER LINKS */
 .footer_links {
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.5em;
     color: black
 }
-
+/* FOOTER COPYRIGHT */
 .footer_copyright {
     padding: 2em;
     text-align: center;
 }
-
+/* FOOTER PSEUDO-ELEMENTS */
 .footer_links:hover {
     color: #20b2aa;
   }
@@ -119,9 +122,11 @@ footer {
   }
 
 @media only screen and (min-width: 550px) and (max-width: 749px) {
+    /* BLOG POSTS */
     section {
         height: 60vh;
     }
+    /* BLOG POST IMAGES */
     section > img {
         padding: 5px;
         margin-top: 0.5em;
@@ -129,9 +134,11 @@ footer {
 }
 
 @media only screen and (min-width: 750px) and (max-width: 899px){
+    /* BLOG POSTS */
     section {
         height: 40vh;
     }
+    /* BLOG POST IMAGE */
     section > img {
         padding: 5px;
         margin-top: 3.5em;
@@ -139,19 +146,23 @@ footer {
         margin-right: 1em;
         flex: 5%
     }
+    /* BLOG POST CONTAINER */
     .blog_post {
         flex: 60%;
         padding: 2em;
     }
+    /* BLOG POST HEADER */
     .blog_post > h2 {
         padding-bottom: 0.5em;
     }
 }
 
 @media only screen and (min-width: 900px) and (max-width:1199px){
+    /* BLOG POSTS */
     section {
         height: 30vh;
     }
+    /* BLOG POST IMAGES */
     section > img {
         padding: 5px;
         margin-top: 1.5em;
@@ -159,18 +170,22 @@ footer {
         margin-right: 3em;
         flex: 5%
     }
+    /* BLOG POST CONTAINER */
     .blog_post {
         flex: 70%;
     }
+    /* BLOG POST HEADER */
     .blog_post > h2 {
         padding-bottom: 0.5em;
     }
 }
 
 @media only screen and (min-width: 1200px) {
+    /* BLOG POSTS */
     section {
         height: 30vh;
     }
+    /* BLOG POST IMAGES */
     section > img {
         padding: 5px;
         margin-top: 1em;
@@ -178,12 +193,15 @@ footer {
         margin-right: 4em;
         flex: 5%
     }
+    /* BLOG POST CONTAINER */
     .blog_post {
         flex: 70%;
     }
+    /* BLOG POST HEADER */
     .blog_post > h2 {
         padding-bottom: 0.5em;
     }
+    /* BLOG POST PARAGRAPH */
     .blog_post p {
         padding-left: 5em;
         padding-right: 5em;

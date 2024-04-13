@@ -1,8 +1,9 @@
+/* WHOLE PAGE STYLING */
 article {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* WHOLE PAGE STYLING */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ article {
     font-weight: 100;
     font-style: normal;
 }
-
+/* WHOLE PAGE STYLING */
 article > * {
     width: 100%;
     height: 50vh;
@@ -21,49 +22,48 @@ article > * {
     box-sizing: border-box;
     padding: 1em;
 }
-
-
+/* NAV BAR */
 nav {
     padding-right: 0.5em;
     height: 10vh;
     justify-content: flex-end;
     background-color: white;
 }
-
+/* NAV BAR LINKS */
 nav a {
     color: black;
     text-decoration: none;
     padding: 0.5em;
 }
-
+/* NAV BAR LOGO */
 #logo {
     position: absolute;
     left: 0;
 }
-
+/* NAV BAR PSEUDO ELEMENTS */
 nav > a:hover {
     border-bottom: 2px solid lightseagreen;
 }
-
+/* PAGE HEADER */
 header {
     height: 10vh;
     padding-top: 3em;
     padding-bottom: 8em;
     text-align: center;
 }
-
+/* MY RESUME HEADER */
 header h1 {
     width: 100%;
     font-weight: 300;
     font-size: 3em;
 }
-
+/* LINK TO PDF OF RESUME */
 header a {
     text-decoration: none;
     color: black;
     padding-right: 1em;
 }
-
+/* WORK EXPERIENCE BOXES- YEAR+ TITLE+ DESCRIPTION*/
 section {
     height: 40vh;
     border-bottom: 2px solid black;
@@ -74,27 +74,28 @@ section {
     margin-left: 2em;
     margin-right: 2em;
 }
+/* WORK EXPERIENCE YEAR */
 section h1 {
     width: 100%;
     font-weight: 600;
     font-size: 3em;
 }
-
+/* WORK EXPERIENCE DESCRIPTION BOX*/
 .description {
     width: 100%;
 }
-
+/* WORK EXPERIENCE TITLE */
 .description h2 {
     font-weight: 300;
 }
-
+/* LET'S CHAT BANNER */
 header h2 {
     font-weight: 300;
     font-size: 3em;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-
+/* FOOTER */
 footer {
     height: 10vh;
     padding-bottom: 2em;
@@ -102,19 +103,19 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* FOOTER LINKS */
 .footer_links {
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.5em;
     color: black
 }
-
+/* FOOTER COPYRIGHT */
 .footer_copyright {
     padding: 2em;
     text-align: center;
 }
-
+/* FOOTER PSEUDO-ELEMENTS */
 .footer_links:hover {
     color: #20b2aa;
   }
@@ -124,12 +125,15 @@ footer {
   }
 
 @media only screen and (min-width: 500px) and (max-width: 749px) {
+    /* WORK EXPERIENCE YEAR */
     section h1 {
         flex: 30%
     }
+    /* WORK EXPERIENCE DESCRIPTION BOX*/
     .description {
         flex: 50%;
     }
+    /* WORK EXPERIENCE YEAR */
     section h1 {
         font-size: 4em;
     }
@@ -137,15 +141,19 @@ footer {
 
 
 @media only screen and (min-width: 750px) and (max-width: 999px) {
+    /* WORK EXPERIENCE YEAR */
     section h1 {
         flex: 30%
     }
+    /* WORK EXPERIENCE DESCRIPTION BOX*/
     .description {
         flex: 50%;
     }
+    /* WORK EXPERIENCE YEAR */
     section h1 {
         font-size: 5em;
     }
+    /* WORK EXPERIENCE BOXES- YEAR+ TITLE+ DESCRIPTION*/
     section {
         padding: 4em;
     }
@@ -156,20 +164,22 @@ footer {
     section h1 {
         flex: 30%
     }
+    /* WORK EXPERIENCE DESCRIPTION BOX*/
     .description {
         flex: 50%;
     }
+    /* WORK EXPERIENCE BOXES-DESCRIPTION*/
     .description  p {
         margin-right: 8em;
     }
+    /* WORK EXPERIENCE YEAR*/
     section h1 {
         font-size: 6em;
         text-align: center;
     }
+    /* WORK EXPERIENCE BOXES- YEAR+ TITLE+ DESCRIPTION*/
     section {
         margin: 4em;
         height: 20vh;
     }
-    }
-
 }

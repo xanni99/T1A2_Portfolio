@@ -1,3 +1,4 @@
+/* WHOLE PAGE STYLING */
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +7,13 @@
     font-style: normal;
     box-sizing: border-box;
 }
-
+/* WHOLE PAGE SETUP */
 article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: black;
-    color: white; */
 }
-
+/* WHOLE PAGE STYLING/CONTAINERS */
 article > * {
     width: 100%;
     height: 50vh;
@@ -22,7 +21,7 @@ article > * {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* NAV BAR */
 nav {
     padding-right: 0.5em;
     height: 10vh;
@@ -30,22 +29,22 @@ nav {
     align-items: center;
     background-color: white;
 }
-
+/* NAV BAR LINKS */
 nav a {
     color: black;
     text-decoration: none;
     padding: 0.5em;
 }
-
+/* NAV BAR LOG */
 #logo {
     position: absolute;
     left: 0;
 }
-
+/* NAV BAR PSEUDO ELEMENTS */
 nav > a:hover {
     border-bottom: 2px solid lightseagreen;
 }
-
+/* PAGE HEADER */
 header {
     height: 10vh;
     padding-top: 1em;
@@ -55,7 +54,7 @@ header {
     font-weight: 300;
     font-size: 3em;
 }
-
+/* PROJECT BOXES */
 section {
     align-content: center;
     row-gap: 1em;
@@ -63,14 +62,14 @@ section {
     height: 45vh;
     border: 1px dashed black;
 }
-
+/* PROJECT HEADERS */
 section h2 {
     width: 100%;
     text-align: center;
     padding-top: 1em;
     font-weight: 400;
 }
-
+/* FOOTER */
 footer {
     height: 15vh;
     margin-top: 5em;
@@ -79,19 +78,19 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* FOOTER LINKS */
 .footer_links {
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.5em;
     color: black
 }
-
+/* FOOTER COPYRIGHT */
 .footer_copyright {
     padding: 2em;
     text-align: center;
 }
-
+/* FOOTER PSEUDO-ELEMENTS */
 .footer_links:hover {
     color: #20b2aa;
   }
@@ -101,34 +100,42 @@ footer {
   }
 
 @media only screen and (min-width: 750px) and (max-width: 819px) {
+    /* PROJECT BOXES */
     section {
         height: 40vh;
         flex: 30%;
     }
+    /* PROJECT BOXESON THE RIGHT */
     #typography, #flexbox_challenge {
         margin-right: 3em;
         margin-top: 6em;
     }
+    /* PROJECT BOXES ON THE LEFT */
     #rainbow_circles, #recipe_challenge {
         margin-left: 3em;
     }
+    /* RAINBOW CIRCLES PROJECT */
     #rainbow_circles {
         margin-top: 3em;
     }
+    /* FLEXBOX CHALLENGE PROJECT */
     #flexbox_challenge {
         margin-top: 3em;
     }
 }
 
 @media only screen and (min-width: 820px) and (max-width: 1200px) {
+    /* PROJECT BOXES */
     section {
         height: 50vh;
         flex: 40%;
     }
+    /* PROJECT BOXESON THE RIGHT */
     #typography, #flexbox_challenge {
         margin-right: 3em;
         margin-top: 5em;
     }
+    /* PROJECT BOXES ON THE LEFT */
     #rainbow_circles, #recipe_challenge {
         margin-left: 3em;
     }
@@ -136,15 +143,18 @@ footer {
 }
 
 @media only screen and (min-width: 1201px) {
+    /* PROJECT BOXES */
     section {
         height: 60vh;
         flex: 30%;
     }
+    /* PROJECT BOXES ON THE RIGHT */
     #typography, #flexbox_challenge {
         margin-right: 6em;
         margin-top: 12em;
         margin-left: 2em;
     }
+    /* PROJECT BOXES ON THE LEFT */
     #rainbow_circles, #recipe_challenge {
         margin-left: 6em;
         margin-right: 2em;

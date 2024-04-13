@@ -17,7 +17,7 @@ article {
     column-gap: 2em;
 }
 
-/* WHOLE PAGE STYLING */
+/* PAGE SECTION STYLING */
 article > * {
     width: 100%;
     height: 50vh;
@@ -187,7 +187,7 @@ footer {
     .hobby h2 {
         padding-bottom: 1em;
     }
-
+    /* TRAVEL BLOG SECTION */
     #travel_header {
         height: 10vh;
     }
@@ -203,6 +203,7 @@ footer {
 }
 
 @media only screen and (min-width: 850px) and (max-width:1049px){
+    /* HOBBY SECTION */
     section {
         text-align: right;
         height: 30vh;
@@ -222,6 +223,7 @@ footer {
         padding-bottom: 1em;
     }
 
+    /* TRAVEL BLOG SECTION */
     #travel_header {
         height: 5vh;
     }
@@ -241,7 +243,7 @@ footer {
         padding-left:3em;
         padding-right: 3em;
     }
-    
+    /* HOBBY SECTION */
     section {
         text-align: right;
         height: 30vh;
@@ -260,7 +262,7 @@ footer {
     .hobby h2 {
         padding-bottom: 1em;
     }
-
+    /* TRAVEL BLOG SECTION */
     #travel_header {
         height: 5vh;
         padding-top: 2em;
@@ -274,7 +276,6 @@ footer {
         margin-left: 2em;
         margin-right: 2em;
     }
-
 }
 
 @media only screen and (min-width: 1300px) {
@@ -283,6 +284,7 @@ footer {
         padding-right: 5em;
     }
     
+    /* HOBBY SECTION */
     section {
         text-align: right;
         height: 30vh;
@@ -302,7 +304,7 @@ footer {
     .hobby h2 {
         padding-bottom: 1em;
     }
-
+    /* TRAVEL BLOG SECTION */
     #travel_header {
         height: 5vh;
         padding-top: 2em;
@@ -316,5 +318,4 @@ footer {
         margin-left: 3.5em;
         margin-right: 3.5em;
     }
-
 }
