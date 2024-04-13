@@ -45,6 +45,19 @@ Finally, it can be seen in the sitemap above that there is an external link to a
 
 ### Wireframes and Portfolio Screenshots
 
+![Wireframe of Homepage - Desktop View](docs/wireframe_homepage_d.png)
+![Wireframe of Homepage - Tablet View](docs/wireframe_homepage_t.png)
+![Wireframe of Homepage - Phone View](docs/wireframe_homepage_p.png)
+
+Screenshot of Homepage - Desktop View
+![Screenshot of Homepage - Desktop View](docs/homepaged.png)
+
+Screenshot of Homepage - Tablet View
+![Screenshot of Homepage - Tablet View](docs/homepaget.png)
+
+Screenshot of Homepage - Phone View
+![Screenshot of Homepage - Tablet View](docs/homepagep.png)
+
 
 ### Decision Making Process
 
@@ -57,6 +70,19 @@ Finally, it can be seen in the sitemap above that there is an external link to a
 ## About Me
 
 ### Wireframes and Portfolio Screenshots
+
+![Wireframe of About Me - Desktop View](docs/wireframe_aboutme_d.png)
+![Wireframe of About Me - Tablet View](docs/wireframe_aboutme_t.png)
+![Wireframe of About Me - Phone View](docs/wireframe_aboutme_p.png)
+
+Screenshot of About Me - Desktop View
+![Screenshot of About Me - Desktop View](docs/aboutmed.png)
+
+Screenshot of About Me - Tablet View
+![Screenshot of About Me - Tablet View](docs/aboutmet.png)
+
+Screenshot of About Me - Phone View
+![Screenshot of About Me - Tablet View](docs/aboutmep.png)
 
 ### Decision Making Process
 
