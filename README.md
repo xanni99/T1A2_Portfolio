@@ -82,7 +82,7 @@ Screenshot of About Me - Tablet View
 ![Screenshot of About Me - Tablet View](docs/aboutmet.png)
 
 Screenshot of About Me - Phone View
-![Screenshot of About Me - Tablet View](docs/aboutmep.png)
+![Screenshot of About Me - Phone View](docs/aboutmep.png)
 
 ### Decision Making Process
 
@@ -96,6 +96,19 @@ Screenshot of About Me - Phone View
 
 ### Wireframes and Portfolio Screenshots
 
+![Wireframe of Resume - Desktop View](docs/wireframe_resume_d.png)
+![Wireframe of Resume - Tablet View](docs/wireframe_resume_t.png)
+![Wireframe of Resume - Phone View](docs/wireframe_resume_p.png)
+
+Screenshot of Resume - Desktop View
+![Screenshot of Resume - Desktop View](docs/resumed.png)
+
+Screenshot of Resume - Tablet View
+![Screenshot of Resume - Tablet View](docs/resumet.png)
+
+Screenshot of Resume - Phone View
+![Screenshot of Resume - Phone View](docs/resumep.png)
+
 ### Decision Making Process
 
 ### Components Used
@@ -108,6 +121,19 @@ Screenshot of About Me - Phone View
 
 ### Wireframes and Portfolio Screenshots
 
+![Wireframe of Blog - Desktop View](docs/wireframe_blog_d.png)
+![Wireframe of Blog - Tablet View](docs/wireframe_blog_t.png)
+![Wireframe of Blog - Phone View](docs/wireframe_blog_p.png)
+
+Screenshot of Blog - Desktop View
+![Screenshot of Blog - Desktop View](docs/blogd.png)
+
+Screenshot of Blog - Tablet View
+![Screenshot of Blog - Tablet View](docs/blogt.png)
+
+Screenshot of Blog - Phone View
+![Screenshot of Blog - Phone View](docs/blogp.png)
+
 ### Decision Making Process
 
 ### Components Used
@@ -119,6 +145,19 @@ Screenshot of About Me - Phone View
 ## Projects
 
 ### Wireframes and Portfolio Screenshots
+
+![Wireframe of Projects - Desktop View](docs/wireframe_projects_d.png)
+![Wireframe of Projects - Tablet View](docs/wireframe_projects_t.png)
+![Wireframe of Projects - Phone View](docs/wireframe_projects_p.png)
+
+Screenshot of Projects - Desktop View
+![Screenshot of Projects - Desktop View](docs/projectsd.png)
+
+Screenshot of Projects - Tablet View
+![Screenshot of Projects - Tablet View](docs/projectst.png)
+
+Screenshot of Projects - Phone View
+![Screenshot of Projects - Phone View](docs/projectsp.png)
 
 ### Decision Making Process
 
