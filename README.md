@@ -30,7 +30,6 @@ Finally, GitHub was used for source control throughout the entire project.
 ## Sitemap
 
 ![Sitemap of Portfolio Pages](docs/sitemap.png)
-<!-- Explain the overall structure of the website and how different pages will be navigated -->
 As you can see from the sitemap above, the Portfolio has a homepage and 4 additional pages. Each of these four pages can be accessed by clicking a link on the hompage (represented above as the black lines). Likewise, the homepage can be accessed through each of the 4 pages by clicking a link on each of the 4 pages (also represented through the black lines). Additionally, each of the 4 HTML pages can be accessed by clicking a link on the Nav bar that is located on each page. This can be seen on the sitemap above, as each HTML page has 3 red lines running into it, meaning it can be accessed by any of the other 3 pages. Overall, both the black and red lines represent the Nav Bar that is uniform accross all of the pages. I chose to make the Nav Bar availble on all of the pages to ensure easy movement from page to page in addition to allowing the viewers to go back and forth between pages if desired. All of these links (when clicked) open up in the current page. This was preferable over opening each page in a new tab as it allos for a more seamless and cohesive viewing of the Portfolio.
 
 It can also be seen from the sitemap above, that each page (homepage + 4 pages) has 3 contact links (to Email, Linkdin and Github) which can be observed above as the green circles. These represent the links provided in the footer of each document. I chose to put these 3 links in the footer (and therefore have them available on each page) as the target audience for this Portfolio is prospective employers and therefore, I wanted to make sure they have easy access to contact me from any page. All of these links (when clicked) open up in new tabs instead of opening in the current page as it is intended that these links provide additional information/contact opportunities without intterupting their ability to view the rest of the Portfolio.
@@ -90,7 +89,7 @@ Screenshot of About Me - Phone View
 
 ### Decision Making Process of About Me
 
-The 'About Me' page consits of a Header, a headshot and description, a list of my hobbys with a photo, title and a descrption and finally a list of blog posts that include a photo, title and date posted.
+The 'About Me' page consits of a Header, a headshot and description, a list of my hobbys with a photo, title and a descrption, a list of blog posts that include a photo, title and date posted, and the footer.
 
 Firstly, I decided to give each of the 4 HTML pages a nice clear header to ensure the employer could see what the page was about without having to refer to the Nav Bar. I made this the biggest text of the page so that it is clear it is the header. I did not want the header font to be too bolded as I wanted it to still be seamless with therest of the page and just used it's size to make it clear it was the head of the page.
 
@@ -120,19 +119,13 @@ Screenshot of Resume - Phone View
 
 ### Decision Making Process of Resume
 
-Again, the goal of the resume page was to be professional, simplistic and ultimately easy to read and find desired information. The resume page has the nav bar, a header, a link to a PDF document, work experience section including a title, a sub-heading and a description, a call to action banner and the footer.
+Again, the goal of the resume page was to be professional, simplistic and ultimately, easy to read and find desired information. The resume page has the nav bar, a header, a link to a PDF document, work experience section including a title, a sub-heading and a description, a call to action banner and the footer.
 
-It can be seen that I styled the header and PDF link, differently to how it was presented in the initial wireframe. Initially, it was positioned to the left of the  document to be inline with the 'year' of eavh of the work experience components. However, in order to keep consistency across the entire webpage I decided to center it. Additionally, this aided in the responsive design of the page as when it is viewed on a phone, the header would no longer be in line as the  work experience components become stacked. I decided to add a direct link to my resume under the header as it is a more formal and extensive version of the information being presented below. It is styled so that it will open in a new tab  so that it can be downloaded if desired and doesn't disrupt the viewer from seeinging the rest of my portfolio.
+It can be seen that I styled the header and PDF link differently to how it was presented in the initial wireframe. Initially, it was positioned to the left of the  document to be inline with the 'year' of each of the work experience components. However, in order to keep consistency across the entire webpage I decided to center it. Additionally, this aided in the responsive design of the page as when it is viewed on a phone, the header would no longer be in line, as the work experience components become stacked. I decided to add a direct link to my resume under the header as it is a more formal and extensive version of the information being presented below. It is styled so that it will open in a new tab  so that it can be downloaded if desired and doesn't disrupt the viewer from seeinging the rest of my portfolio.
 
 For the work experience components, I wanted to make  the 'year' a feature by styling it to have quite a high font weight. By doing this, it added to a clear design and some differentiation between the content being provided without having to use colours. Additionally I added some font weight to the title of each job description so that it could clearly be identified. Additionally, I styled the container of each work experience sention to have a bottom-border so that there is a clear identification between each work experience section.
 
 I decided to add a call to action of a 'lets chat' banner in order to let the viewer know that I am interested in communicating with them. By  having it at the bottom of my work experience content and above my professional links provided in the footer it will hopefully convince the employer to consider reaching out. 
-
-### Components Used
-
-### Page Styling
-
-### Responsive Design
 
 ## Blog
 
@@ -153,11 +146,11 @@ Screenshot of Blog - Phone View
 
 ### Decision Making Process of Blog
 
-### Components Used
+The blog page  consists of the nav bar, a header, and blog post components that each contain an image, a header, a description and a date that it was posted. 
 
-### Page Styling
+As with the previous pages, the header was styled to remain consistent across all of the pages. 
 
-### Responsive Design
+The blog post components make up the main section of this document. They each include an image, a header, a description, and a date that it was published. Firstly I decided to group each contents of individual blog posts with a border to make it very clear where one blog post started and finished. I decided to go with a thin, black, dashed border, so that it didn't take up too much space with the main content being the blog post. The images for each post are styled to be circles in order to keep with the overall theme of the document. I decided to give the images a padded border to again represent that these are moments in my life and it also provides a barrier for the post. Although I kept the same font as the rest of the document, I decided to justify the text so that it gave more of a blog post\writing feel to the page. Additionally, this allows for the blog posts to be more uniform in nature. Again in order to represent the header of each blog post, I increased the font-weight to allow for some distinction. Of course, this page is responsive for every viewport. Again, there is not too much that is different between viewing this on a desktop or a tablet, however, once viewed on a phone, the components of each blog post become stacked and centered in order to allow for more room on the screen. Additionally, I styled the page so that there wouldn't be too many blog posts seen at once on the page. I did this so that the viewer could focus on one blog post at a time and ensuring the post can be big enough so that the viewer has no trouble reading the contents.
 
 ## Projects
 
@@ -178,12 +171,4 @@ Screenshot of Projects - Phone View
 
 ### Decision Making Process of Projects
 
-### Components Used
-
-### Page Styling
-
-### Responsive Design
-
-## Conclusion
-
-Explain how planned pages, components of pages, and styling of pages meets the  goal of the website within the context of the websites intended audience
+The Projects page contains the nav bar, a header, project boxes and the footer. This is a very basic page that can be updated as I progress in my course/career to highlight my most current or projects that I am most proud of. As always the page header is styled to be consistent with the rest of the website and each project section is made up of its own header and an image. I wanted to make the image of each project box nice and large so that it shows enough of the project to hopefully intrigue the employer enough to go check it out on my GitHub (which they can immediately link to from the icon in the footer). I created a border around each project box so it is super clear which project is which. When this page is viewed on a desktop or a tablet, I arranged the boxes so that they are no exactly in line with the previous project. I did this so I could almost create a timeline and/or ranking of projects and encourage the employer to check out my projects in a particular order. By doing this, if the employer does not have time to check out all of the projects displayed, they will check out the project I have placed at the top. Once viewed on a phone, the images become stacked and centered to ensure that the viewer is still able to see all of the projects clearly.
