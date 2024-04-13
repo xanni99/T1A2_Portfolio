@@ -76,12 +76,14 @@ section {
     flex-wrap: wrap;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 1em;
 }
 /* WORK EXPERIENCE YEAR */
 section h1 {
     width: 100%;
     font-weight: 600;
     font-size: 3em;
+    text-align: center;
 }
 /* WORK EXPERIENCE DESCRIPTION BOX*/
 .description {

@@ -43,7 +43,7 @@ Finally, it can be seen in the sitemap above that there is an external link to a
 
 ## Homepage
 
-### Wireframes and Portfolio Screenshots
+### Wireframes and Portfolio Screenshots of Homepage
 
 ![Wireframe of Homepage - Desktop View](docs/wireframe_homepage_d.png)
 ![Wireframe of Homepage - Tablet View](docs/wireframe_homepage_t.png)
@@ -73,7 +73,7 @@ As all pages across this website, the homepage is designed and styled with respo
 
 ## About Me
 
-### Wireframes and Portfolio Screenshots
+### Wireframes and Portfolio Screenshots of About Me
 
 ![Wireframe of About Me - Desktop View](docs/wireframe_aboutme_d.png)
 ![Wireframe of About Me - Tablet View](docs/wireframe_aboutme_t.png)
@@ -98,17 +98,12 @@ For the headshot section, I decided touse a clear photo of myself so that the em
 
 For my hobby section, I again tried to keep it as professional and as clean as possible. Although the font is the same, I decided to increase the weight of the title font in oredr to highlight which hobby I was talking about, making it clear for the viewer. For the images I decided to border them with a frame-like structure in order to represent that these are some cherished moments in my life and give it more of a personal feel. This component is responsive in design so it can be easily viewed from all viewport widths. There is not too much of a change between the desktop and tablet view (just some spacing), however once thispage is viewed on a phone viewport, this component becomes stacked so that readability remains at a high standard. Additionally, when  the page becomes stacked, the hobby description becomes centered to remain visually pleasing.
 
-Finally, my blog list at the bottom of this page was to further highlight one of my hobbies listed above of travelling. By providing little blog post cards at the bottom of the page, it gives the viewer a chance to have an overview of my blog posts if theyare not interested in scrolling through the entire page. Each blog post card contains an image, a header and the date that it was posted, to give a clear and concise overview of each post. Additionally each blog post card has a link, that when clicked, will take the  viewer to the Blog page so that they can see more of that post. I styled this component with a nice solid background to not only keep with the clean, professional feel but to provide a clear border for each of the different blog posts. The images are styled to be a circle to fit with the theme of used throughout the website so far such as the circular head shot above. This component is responsive in design as according to the wireframes. If in a desktop view 
+Finally, my blog list at the bottom of this page was to further highlight one of my hobbies listed above of travelling. By providing little blog post cards at the bottom of the page, it gives the viewer a chance to have an overview of my blog posts if theyare not interested in scrolling through the entire page. Each blog post card contains an image, a header and the date that it was posted, to give a clear and concise overview of each post. Additionally each blog post card has a link, that when clicked, will take the  viewer to the Blog page so that they can see more of that post. I styled this component with a nice solid background to not only keep with the clean, professional feel but to provide a clear border for each of the different blog posts. The images are styled to be a circle to fit with the theme of used throughout the website so far such as the circular head shot above. This component is responsive in design as according to the wireframes. If in a desktop view or tablet view, the blog list cards are spread 3 across as there is enough room for them to be nicely displayed in 2 even rows. However, once this is viewed on a phone, it is simply too small to remain 3 across, so instead changes to 2 across to allow for more room.
 
-### Components Used
-
-### Page Styling
-
-### Responsive Design
 
 ## Resume
 
-### Wireframes and Portfolio Screenshots
+### Wireframes and Portfolio Screenshots of Resume
 
 ![Wireframe of Resume - Desktop View](docs/wireframe_resume_d.png)
 ![Wireframe of Resume - Tablet View](docs/wireframe_resume_t.png)
@@ -125,6 +120,12 @@ Screenshot of Resume - Phone View
 
 ### Decision Making Process of Resume
 
+Again, the goal of the resume page was to be professional, simplistic and ultimately easy to read and find desired information. The resume page has the nav bar, a header, a link to a PDF document, work experience section including a title, a sub-heading and a description, a call to action banner and the footer.
+
+It can be seen that I styled the header and PDF link, differently to how it was presented in the initial wireframe. Initially, it was positioned to the left of the  document to be inline with the 'year' of eavh of the work experience components. However, in order to keep consistency across the entire webpage I decided to center it. Additionally, this aided in the responsive design of the page as when it is viewed on a phone, the header would no longer be in line as the  work experience components become stacked. I decided to add a direct link to my resume under the header as it is a more formal and extensive version of the 
+
+For the work experience components, I wanted to make  the 'year' a feature by styling it to have quite a high font weight. By doing this, it added to a clear design and some differentiation between the content being provided without having to use colours. Additionally I added some font weight to the title of each job description so that it could clearly be identified.  
+
 ### Components Used
 
 ### Page Styling
@@ -133,7 +134,7 @@ Screenshot of Resume - Phone View
 
 ## Blog
 
-### Wireframes and Portfolio Screenshots
+### Wireframes and Portfolio Screenshots of Blog
 
 ![Wireframe of Blog - Desktop View](docs/wireframe_blog_d.png)
 ![Wireframe of Blog - Tablet View](docs/wireframe_blog_t.png)
@@ -158,7 +159,7 @@ Screenshot of Blog - Phone View
 
 ## Projects
 
-### Wireframes and Portfolio Screenshots
+### Wireframes and Portfolio Screenshots of Projects
 
 ![Wireframe of Projects - Desktop View](docs/wireframe_projects_d.png)
 ![Wireframe of Projects - Tablet View](docs/wireframe_projects_t.png)
