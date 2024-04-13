@@ -9,35 +9,42 @@
     font-weight: 100;
     font-style: normal;
 }
-/* NAV BAR */
+/* NAV BAR CONTAINER*/
 nav {
     background-color: white;
     height: 10vh;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 1em;
+    width: 100%;
 }
 
 /* NAV BAR LINKS */
-nav > a {
+.my_links {
     background-color: white;
     text-decoration: none;
     color: black;
     padding: 0.5em;
 }
 
+/* CONTAINER FOR NAVBAR LINKS */
+#html_links {
+    flex:85%;
+    display: flex;
+    background-color: white;
+    justify-content: end;
+}
+
 /* NAV BAR PSEUDO ELEMENT */
-nav > a:hover {
+.my_links:hover {
     border-bottom: 2px solid lightseagreen;
 }
 
 /* NAV BAR LOGO */
 #logo {
-    position: absolute;
-    left: 0;
+    flex: 5%;
+    background-color: white;
 }
 
 /* PAGE HEADER */
@@ -48,6 +55,7 @@ header {
     align-items: center;
     height: 60vh;
     text-align: center;
+    width: 100%;
 }
 
 /* LINKS TO PROFESSIONAL PAGES */
@@ -57,6 +65,7 @@ section {
     justify-content: center;
     align-items:flex-start;
     height: 10vh;
+    width: 100%;
 }
 
 /* NAME/PAGE HEADER */
@@ -64,6 +73,7 @@ h1 {
     padding: 0.5em;
     font-weight: 300;
     font-size: 5em;
+    display: flex;
 }
 
 /* LINKS TO PROFESSIONAL PAGES */
@@ -79,6 +89,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 /* FOOTER LINKS */
