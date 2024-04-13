@@ -1,7 +1,5 @@
 # T1A2_Portfolio
 
-Xanthia Mason
-
 ## GitHub Repository
 
 [Link to my GitHub Repo](https://github.com/xanni99/T1A2_Portfolio)
