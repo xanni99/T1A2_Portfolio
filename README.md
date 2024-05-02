@@ -1,5 +1,8 @@
 # T1A2_Portfolio
 
+## Portfolio Link
+[Deployed Portfolio](https://xanthiamason-t1a2-portfolio.netlify.app/)
+
 ## GitHub Repository
 
 [Link to my GitHub Repo](https://github.com/xanni99/T1A2_Portfolio)
